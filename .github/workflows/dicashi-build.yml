@@ -14,7 +14,7 @@ jobs:
         run: npm install
 
       - name: Build the site
-        run: npm run production
+        run: npm run prod
 
       - name: Deploy
         id: deploy
