@@ -11,6 +11,7 @@
 :root {
   --color-black-primary: #000000;
   --color-black-secondary: #68637c;
+  --color-blue-light: #c7cff4;
   --color-blue-primary: #afd1f5;
   --color-blue-secondary: #0062cc;
 }
@@ -114,11 +115,27 @@ img {
   gap: 20px;
 }
 
+.cta-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  font-weight: 600;
+  border-radius: 100px;
+  padding: 6px 15px;
+}
+
 .btn-primary {
   background-color: var(--color-black-primary);
   color: #fff;
-  border-radius: 100px;
-  padding: 6px 15px;
+}
+
+.btn-secondary {
+  background-color: var(--color-blue-light);
+  color: var(--color-black-primary);
 }
 
 .profile {
@@ -143,7 +160,7 @@ img {
 }
 
 .bio-wip {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .footer {
