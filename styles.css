@@ -51,18 +51,25 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  padding-block: 0px;
+  padding-inline: 0px;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-.color-black-primary {}
-
-.color-black-secondary {}
-
-.color-blue-primary {}
-
-.color-blue-secondary {}
+.speaker-icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--color-black-primary);
+}
 
 .main {
   width: 100%;
